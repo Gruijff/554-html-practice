@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,300&display=swap');
+
+:root {
+    font-family: 'Merriweather', serif;
+}
+
+.logo {
+    width: ;
+}
+
+.menu a {
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    color: #36B14A;
+    width: 200px;
+    text-decoration: none;
+    border: 1px solid transparent;
+}
+
+.menu a:hover {
+    /*border-color: #36B14A */
+    /*font-weight: bold; */
+    color: #2f8f3f;    
+}
+
+.social {
+    height: 20px;
+    width: 20px;
+    padding-top: 5px;
+}
+
+h1 {
+    color: white;
+    font-size: 55px;
+    text-align: center;
+
+}
+
+.banner {
+    background: url(../img/blueberry-fresh.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 400px;
+}
+
+.info-card img {
+    max-width: 400px;
+    display: block;
+    margin: auto;
+}
+
+.info-card h3 {
+    text-align: center;
+}
+
+.info-card {
+    border: 2px solid #36B14A;
+    margin: 10px;
+    padding: 5px;
+}
+
+

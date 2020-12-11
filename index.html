@@ -1,19 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Power Fruit</title>
+    <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
     <header id="home">
         <nav>
-            <div class="logo">Power Fruit</div>
+            <div class="logo"></div>
+                <img src="img/logo.png" alt="Logo">
             <div class="menu">
                 <a href="#home">Головна</a>
                 <a href="#our-company">Наша компанія</a>
                 <a href="#products">Продукція</a>
                 <a href="#contacts">Контакти</a>
+            </div>
+            <div class="social">
+                <a href="https://www.facebook.com/" target="_blank">
+                <img src="img/facebook-icon.svg" alt="Facebook">
+                </a>
+                <a href="https://www.instagram.com/" target="_blank">
+                <img src="img/instagram-icon.svg" alt="Instagram">
+                </a>
+                <a href="https://www.twitter.com/" target="_blank">
+                <img src="img/twitter-icon.svg" alt="Facebook">
+                </a>
             </div>
         </nav>
         <div class="banner">
@@ -27,17 +40,17 @@
         <div class="company-info">
             <article class="info-card">
                 <h3>Все починалося з мрії ...</h3>
-                <img src="img/picture-1.jpg" alt="Picture_1">
+                <img src="img/picture-1.jpg" alt="Все починалося з мрії">
                 <p>ТОВ "Павер Фрут" — це українська аграрна компанія, яка спеціалізується на вирощуванні ягід. Компанія була заснована в 2002 році у м. Дубляни (Львівський район, Львівська обл.). Саме ця місцевість славиться вирощуванням ягід, зокрема полуниці.</p>
             </article>
             <article class="info-card">
                 <h3>Що ми вирощуємо</h3>
-                <img src="img/picture-2.jpg" alt="Picture_2">
+                <img src="img/picture-2.jpg" alt="Що ми вирощуємо">
                 <p>Ми вирощуємо суницю садову (полуницю), суницю лісову, малину, чорноплідну горобину, лохину. </p>
             </article>
             <article class="info-card">
                 <h3>Чому ми найкращі?</h3>
-                <img src="img/picture-3.jpg" alt="Picture_3">
+                <img src="img/picture-3.jpg" alt="Чому ми найкращі?">
                 <p>Ми вирощуємо і збираємо найсмачніші в Україні ягоди й постачаємо харчовим підприємствам, роздрібним мережам супермаркетів та пропонуємо усім, хто завітає до нас у розпал ягідного сезону. Наш принцип - це європейський підходхід до якості, харчової безпеки та відслідкованості продукції на усіх етапах. Ми прагнемо, щоб наші плоди приносили споживачам ще більше здоров’я, зручності та задоволення!</p>
             </article>
         </div>
@@ -102,16 +115,39 @@
     </main>
     <footer>
         <h2 id="contacts">Зв'язок з нами</h2>
-        <form>
+            <h3>Відправте нам запит і ми зв'яжемося з Вами найближчим часом. </h3>
+            <h3>Адреса:</h3>
+                <p>м. Дубляни, Львівська обл., вул. І. Франка 87, 26850</p>
+            <h3>Графік роботи:</h3>
+                <p>Понеділок- П'ятниця: 9:00-18:00</p>
+                <p>Субота: 9:00-15:00</p>
+            <div class="social">
+                <a href="https://www.facebook.com/" target="_blank">
+                <img src="img/facebook-icon.svg" alt="Facebook">
+                </a>
+                <a href="https://www.instagram.com/" target="_blank">
+                <img src="img/instagram-icon.svg" alt="Instagram">
+                </a>
+                <a href="https://www.twitter.com/" target="_blank">
+                <img src="img/twitter-icon.svg" alt="Facebook">
+                </a>
+            </div>
+        <form method="POST" action="https://formspree.io/f/xjvparqb">
+            <br>
+            <br>
+            <br>
             <label>Ваше ім'я:
                 <input type="text" name="user-name" placeholder="Ваше ім'я">
             </label>
+            <br>
             <label>Ваш номер телефону:
                 <input type="number" name="user-phone" placeholder="Ваш номер">
             </label>
+            <br>
             <label>Ваш е-мейл:
                 <input type="email" name="user-email" placeholder="Ваше е-мейл">
-            </label>            
+            </label> 
+            <br>           
             <label>Ваше повідомлення:
                 <textarea name="message" placeholder="Ваше повідомлення"></textarea>
             </label>
