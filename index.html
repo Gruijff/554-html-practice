@@ -98,7 +98,7 @@
                 </div>
             </article>
             <article class="product-card">
-                <h3>Горобина чорноплідна (аронія)</h3>
+                <h3>Горобина чорноплідна</h3>
                 <img src="img/chokeberry.jpg" alt="Chokeberry">
                 <div class="buttons">
                     <button>Детальніше</button>
@@ -135,22 +135,18 @@
         <form method="POST" action="https://formspree.io/f/xjvparqb">
             <br>
             <br>
+            <label for="user-name">Ваше ім'я:</label>
+            <input type="text" name="user-name" id="user-name" placeholder="Ваше ім'я">
             <br>
-            <label>Ваше ім'я:
-                <input type="text" name="user-name" placeholder="Ваше ім'я">
-            </label>
+            <label for="user-phone">Номер телефону:</label>
+            <input type="number" name="user-phone" id="user-phone" placeholder="Ваш номер">
             <br>
-            <label>Ваш номер телефону:
-                <input type="number" name="user-phone" placeholder="Ваш номер">
-            </label>
-            <br>
-            <label>Ваш е-мейл:
-                <input type="email" name="user-email" placeholder="Ваше е-мейл">
-            </label> 
+            <label for="user-email">Е-мейл:</label>
+            <input type="email" name="user-email" id="user-email" placeholder="Ваш е-мейл"> 
             <br>           
-            <label>Ваше повідомлення:
-                <textarea name="message" placeholder="Ваше повідомлення"></textarea>
-            </label>
+            <label for="message">Ваше повідомлення:</label>
+            <textarea name="message" id="message" placeholder="Ваше повідомлення"></textarea>
+            <br>
             <input type="submit">
         </form>
     </footer>
